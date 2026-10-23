@@ -1,0 +1,170 @@
+```css
+/* General page styling */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff8f0;
+    color: #333333;
+    line-height: 1.7;
+}
+
+/* Header */
+.recipe-header {
+    background-color: #8b1e1e;
+    color: white;
+    text-align: center;
+    padding: 30px 15px;
+}
+
+.recipe-header h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+.recipe-header p {
+    margin-bottom: 0;
+}
+
+/* Main content */
+.recipe-container {
+    max-width: 850px;
+    margin: 25px auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* Food image */
+.food-section {
+    text-align: center;
+}
+
+.food-image {
+    display: block;
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.image-caption {
+    color: #777777;
+    font-style: italic;
+    font-size: 14px;
+}
+
+/* Section headings */
+h2 {
+    color: #8b1e1e;
+    border-bottom: 2px solid #e7b35a;
+    padding-bottom: 6px;
+}
+
+/* Lists */
+li {
+    margin-bottom: 8px;
+}
+
+.ingredients-section ul,
+.steps-section ol {
+    padding-left: 28px;
+}
+
+/* Food words */
+dt {
+    font-weight: bold;
+    color: #8b1e1e;
+    margin-top: 12px;
+}
+
+dd {
+    margin-left: 20px;
+}
+
+/* Nutrition table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th,
+td {
+    border: 1px solid #dddddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #8b1e1e;
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #fff0df;
+}
+
+.nutrition-note {
+    font-size: 13px;
+    color: #666666;
+}
+
+/* External link */
+.video-section a {
+    color: #b22222;
+    font-weight: bold;
+}
+
+.video-section a:hover {
+    color: #e7a23b;
+}
+
+/* Horizontal separator */
+hr {
+    border: none;
+    border-top: 1px solid #dddddd;
+    margin: 25px 0;
+}
+
+/* Footer */
+.recipe-footer {
+    background-color: #3b241c;
+    color: white;
+    text-align: center;
+    padding: 22px 15px;
+}
+
+.recipe-footer p {
+    margin: 8px 0;
+}
+
+.recipe-footer address {
+    font-style: normal;
+}
+
+/* Mobile screen */
+@media (max-width: 600px) {
+    .recipe-header h1 {
+        font-size: 25px;
+    }
+
+    .recipe-container {
+        margin: 12px;
+        padding: 15px;
+    }
+
+    .food-image {
+        max-height: 280px;
+    }
+
+    th,
+    td {
+        padding: 9px;
+    }
+}
+```
